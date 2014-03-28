@@ -1,0 +1,11 @@
+Django==1.6.2
+Flask==0.10.1
+Jinja2==2.7.2
+MarkupSafe==0.19
+MySQL-python==1.2.4
+PIL==1.1.7
+Werkzeug==0.9.4
+gunicorn==18.0
+itsdangerous==0.23
+virtualenv==1.11.4
+wsgiref==0.1.2
