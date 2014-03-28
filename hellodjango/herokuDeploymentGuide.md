@@ -21,7 +21,7 @@ http://www.deploydjango.com/heroku/index.html
 	a. if above not working, like it messed up the public key for private key or some wierd error, then generate a new key. via "ssh-keygen -t rsa" 
 	b. add the public key identifying me to heroku's servers
 	c. heroku keys:add 
-	d. git push heroku master (ensure that requirements.txt is present in root directory.)
+	d. git push heroku master (ensure that requirements.txt is present in root directory, ensure Procfile defined in root. ensure that requirements in file are accessible by heroku's pip install. else, place code for those modules in root of project. e.g. PIL)
 
 5. Deploy code to Heroku's servers to run via "git push heroku master"
 
